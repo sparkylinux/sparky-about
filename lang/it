@@ -1,0 +1,34 @@
+# File di localizzzazione in italiano per Sparky About
+# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
+# Rilasciato sotto licenza GNU GPL v2
+# Last update 2017/06/06 by pavroo
+
+LOCAL1="Informazioni su SparkyLinux"
+LOCAL2="Altro"
+LOCAL3="Nome del Sistema Operativo"
+LOCAL4="Versione del Sistema Operativo"
+LOCAL5="Nome in codice del Sistema Operativo"
+LOCAL6="Data e Ora"
+LOCAL7="Fuso Orario"
+LOCAL8="Host"
+LOCAL9="Tempo di funzionamento"
+LOCAL10="Kernel"
+LOCAL11="RAM Totale"
+LOCAL12="SWAP Totale"
+LOCAL13="Gestore di Finestre"
+LOCAL14="Locale"
+LOCAL15="Foreign Architecture Enabled"
+LOCAL16="Utente"
+LOCAL17="Identificativo Utente"
+LOCAL18="Gruppi dell'Utente"
+LOCAL19="Sito Web di Sparky"
+LOCAL20="Comunità"
+LOCAL21="Wiki"
+LOCAL22="Bug Tracker"
+LOCAL23="Sponsorizzazione"
+LOCAL24="Donare"
+LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+
+### .desktop file to be translated too
+# Name[it_IT]=About SparkyLinux
+# Comment[it_IT]=Informazioni di base circa SparkyLinux

@@ -1,0 +1,1 @@
+?package(sparky-about):needs="X11" section="Applications/System"        title="Sparky About" command="/usr/bin/sparky-about" icon="/usr/share/icons/sparky/about/sparky48.png"

@@ -1,0 +1,34 @@
+﻿# Fichier de localisation française de Sparky About.
+# Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
+# Sous licence GNU GPL v2
+# Last update 2017/06/06 by pavroo
+
+LOCAL1="A propos de SparkyLinux"
+LOCAL2="Autre"
+LOCAL3="Nom de l'OS"
+LOCAL4="Version de l'OS"
+LOCAL5="Nom de code de l'OS"
+LOCAL6="Date et heure"
+LOCAL7="Zone horaire"
+LOCAL8="Hôte"
+LOCAL9="Temps de fonctionnement"
+LOCAL10="Noyau"
+LOCAL11="RAM Totale"
+LOCAL12="SWAP Total"
+LOCAL13="Gestionnaire de fenêtre"
+LOCAL14="Localisation"
+LOCAL15="Architecture différente activée"
+LOCAL16="Utilisateur"
+LOCAL17="ID de l'Utilisateur"
+LOCAL18="Groupes de l'Utilisateur"
+LOCAL19="Site internet de Sparky"
+LOCAL20="Communauté"
+LOCAL21="Wiki"
+LOCAL22="Suivi des erreurs"
+LOCAL23="Mécénat"
+LOCAL24="Donner"
+LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+
+### .desktop file to be translated too
+# Name[fr_FR]=A propos de SparkyLinux
+# Comment[fr_FR]=Information de base à propos de SparkyLinux

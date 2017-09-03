@@ -1,0 +1,35 @@
+# Polish localization file for Sparky About.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Translated to Polish by pavroo
+# Last update 2017/06/06 by pavroo
+
+LOCAL1="O SparkyLinux"
+LOCAL2="Inny"
+LOCAL3="Nazwa OS"
+LOCAL4="Wersja OS"
+LOCAL5="Nazwa kodowa OS"
+LOCAL6="Data i Czas"
+LOCAL7="Strefa Czasowa"
+LOCAL8="Host"
+LOCAL9="Aktywny"
+LOCAL10="Jądro"
+LOCAL11="RAM Całkowity"
+LOCAL12="SWAP Całkowity"
+LOCAL13="Menadżer Okien"
+LOCAL14="Lokalizacja"
+LOCAL15="Aktywna Inna Architektura"
+LOCAL16="Użytkownik"
+LOCAL17="ID Użytkownika"
+LOCAL18="Grupy Użytkownika"
+LOCAL19="Strona www Sparky"
+LOCAL20="Społeczność"
+LOCAL21="Wiki"
+LOCAL22="Zgłaszanie Błędów"
+LOCAL23="Sponsoring"
+LOCAL24="Darowizna"
+LOCAL25="x-www-browser nie jest zainstalowany!\n\nZainstaluj przeglądarkę www i spróbuj ponownie.\n\nWyjście..."
+
+## .desktop file, również do przetłumaczenia
+# Name[pl_PL]=O SparkyLinux
+# Comment[pl_PL]=Podstawowe informacje o SparkyLinux

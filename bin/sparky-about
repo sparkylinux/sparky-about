@@ -1,0 +1,199 @@
+#!/bin/bash
+
+# Sparky About uses a few tools to display some system informations
+# via a GUI frontend built by Yad
+#
+# Created by Paweł "pavroo" Pijanowski 2015/05/14
+# Copyright 2015, 2016, 2017 under the GNU GPL2 License
+# Last updated 2017/06/06
+
+# get default's locale file
+DEFLOCDIR="/usr/share/sparky/sparky-about"
+if [ "`cat /etc/default/locale | grep de_DE`" != "" ]; then
+. $DEFLOCDIR/de
+elif [ "`cat /etc/default/locale | grep es_AR`" != "" ]; then
+. $DEFLOCDIR/es
+elif [ "`cat /etc/default/locale | grep fr_FR`" != "" ]; then
+. $DEFLOCDIR/fr
+elif [ "`cat /etc/default/locale | grep it_IT`" != "" ]; then
+. $DEFLOCDIR/it
+elif [ "`cat /etc/default/locale | grep ja_JP`" != "" ]; then
+. $DEFLOCDIR/ja
+elif [ "`cat /etc/default/locale | grep pl_PL`" != "" ]; then
+. $DEFLOCDIR/pl
+elif [ "`cat /etc/default/locale | grep pt_BR`" != "" ]; then
+. $DEFLOCDIR/pt_BR
+elif [ "`cat /etc/default/locale | grep pt_PT`" != "" ]; then
+. $DEFLOCDIR/pt_PT
+elif [ "`cat /etc/default/locale | grep ru_RU`" != "" ]; then
+. $DEFLOCDIR/ru
+elif [ "`cat /etc/default/locale | grep sv_SE`" != "" ]; then
+. $DEFLOCDIR/se
+else
+. $DEFLOCDIR/en
+fi
+
+DIALOG="yad --window-icon=/usr/share/icons/sparky/about/sparky48.png --width=600 --height=380 --center"
+DIALOG450="yad --window-icon=/usr/share/icons/sparky/about/sparky48.png --width=450 --height=300 --center"
+TITLE="--always-print-result --dialog-sep --image=/usr/share/icons/sparky/about/sparky128.png --title="
+TEXT="--text="
+MSGBOX="--button=Ok:0"
+DONATEBUTTON="--button=$LOCAL24:2"
+SPONSORBUTTON="--button=$LOCAL23:3"
+WWWBUTTON="--button=WWW:4"
+FORUMBUTTON="--button=$LOCAL20:5"
+WIKIBUTTON="--button=$LOCAL21:6"
+BUGBUTTON="--button=Bugs:7"
+TITLETEXT="$LOCAL1"
+OSNAME="`lsb_release -d | awk '{print $2}'`"
+OSVERSION="`lsb_release -r | awk '{print $2}'`"
+OSCODE="`lsb_release -c | awk '{print $2}'`"
+PRINTDATE="`date '+%a %F %T'`"
+PRINTTIMEZONE="`cat /etc/timezone`"
+HOST="`uname -n`"
+UPTIME="`uptime -p`"
+KERNEL="`uname -r`"
+RAMTOTAL="`cat /proc/meminfo | grep MemTotal | awk '{print $2}'`"
+SWAPTOTAL="`cat /proc/meminfo | grep SwapTotal | awk '{print $2}'`"
+PRINTLOCALE="`locale | grep 'LANG=' | cut -d= -f2`"
+USER="`whoami`"
+USERID="`id -u`"
+USERGROUPS="`groups`"
+FONT="font_weight='bold' foreground='dark blue'"
+FOREIGN=`dpkg --print-foreign-architectures | awk '{print $1}'`
+if [ "$FOREIGN" = "" ]; then
+PRINTARCH=""
+else
+PRINTARCH="$FOREIGN"
+fi
+
+## Get the window manager name
+if [ $(pidof afterstep) ]; then
+WMNAME="Afterstep"
+elif [ $(pidof awesome) ]; then
+WMNAME="Awesome"
+elif [ $(pidof blackbox) ]; then
+WMNAME="Blackbox"
+elif [ $(pidof bspwm) ]; then
+WMNAME="Bspwm"
+elif [ $(pidof budgie-wm) ]; then
+WMNAME="BudgieWM"
+elif [ $(pidof catwm) ]; then
+WMNAME="Catwm"
+elif [ $(pidof cinnamon) ]; then
+WMNAME="Muffin"
+elif [ $(pidof compiz) ]; then
+WMNAME="Compiz"
+elif [ $(pidof deepin-wm) ]; then
+WMNAME="Deepin"
+elif [ $(pidof dwm) ]; then
+WMNAME="Dwm"
+elif [ $(pidof edewm) ]; then
+WMNAME="Edewm"
+elif [ $(pidof enlightenment) ]; then
+WMNAME="Enlightenment"
+elif [ $(pidof fluxbox) ]; then
+WMNAME="Fluxbox"
+elif [ $(pidof fvwm) ]; then
+WMNAME="FVWM"
+elif [ $(pidof gala) ]; then
+WMNAME="Gala"
+elif [ $(pidof i3) ]; then
+WMNAME="i3"
+elif [ $(pidof icewm) ]; then
+WMNAME="IceWM"
+elif [ $(pidof jwm) ]; then
+WMNAME="JWM"
+elif [ $(pidof kwin) ]; then
+WMNAME="KWin"
+elif [ $(pidof kwin_x11) ]; then
+WMNAME="KWin_x11"
+elif [ $(pidof marco) ]; then
+WMNAME="Marco"
+elif [ $(pidof metacity) ]; then
+WMNAME="Metacity"
+elif [ $(pidof gnome-shell) ]; then
+WMNAME="Mutter"
+elif [ $(pidof openbox) ]; then
+WMNAME="Openbox"
+elif [ $(pidof pekwm) ]; then
+WMNAME="Pekwm"
+elif [ $(pidof ratpoison) ]; then
+WMNAME="Ratpoison"
+elif [ $(pidof sawfish) ]; then
+WMNAME="Sawfish"
+elif [ $(pidof twin) ]; then
+WMNAME="Twin"
+elif [ $(pidof twm) ]; then
+WMNAME="Twm"
+elif [ $(pidof wmaker) ]; then
+WMNAME="Window Maker"
+elif [ $(pidof xfwm4) ]; then
+WMNAME="Xfwm4"
+else
+WMNAME="$LOCAL2"
+fi
+
+## build the window
+$DIALOG $TITLE"$TITLETEXT" $WWWBUTTON $FORUMBUTTON $WIKIBUTTON $BUGBUTTON $SPONSORBUTTON $DONATEBUTTON $TEXT\
+"\n<span $FONT>$LOCAL3: </span>$OSNAME\n\
+<span $FONT>$LOCAL4: </span>$OSVERSION\n\
+<span $FONT>$LOCAL5: </span>$OSCODE\n\n\
+<span $FONT>$LOCAL6: </span>$PRINTDATE\n\
+<span $FONT>$LOCAL7: </span>$PRINTTIMEZONE\n\n\
+<span $FONT>$LOCAL8: </span>$HOST\n\
+<span $FONT>$LOCAL9: </span>$UPTIME\n\
+<span $FONT>$LOCAL10: </span>$KERNEL\n\
+<span $FONT>$LOCAL11: </span>$RAMTOTAL kB\n\
+<span $FONT>$LOCAL12: </span>$SWAPTOTAL kB\n\
+<span $FONT>$LOCAL13: </span>$WMNAME\n\
+<span $FONT>$LOCAL14: </span>$PRINTLOCALE\n\
+<span $FONT>$LOCAL15: </span>$PRINTARCH\n\n\
+<span $FONT>$LOCAL16: </span>$USER\n\
+<span $FONT>$LOCAL17: </span>$USERID\n\
+<span $FONT>$LOCAL18: </span>$USERGROUPS\n\n"
+
+ret=$?
+
+# check is x-www-browser installed
+if [ ! -f /etc/alternatives/x-www-browser ]; then
+	$DIALOG450 $TITLE"$TITLETEXT" $TEXT"$LOCAL25" $MSGBOX
+	exit 0
+fi
+ 
+if [[ $ret -eq 2 ]]; then
+
+      `x-www-browser https://sparkylinux.org/donate/`
+fi
+
+if [[ $ret -eq 3 ]]; then
+
+    `x-www-browser https://sparkylinux.org/sponsoring/`
+
+fi
+
+if [[ $ret -eq 4 ]]; then
+
+    `x-www-browser https://sparkylinux.org/`
+
+fi
+
+if [[ $ret -eq 5 ]]; then
+
+    `x-www-browser https://sparkylinux.org/forum/`
+
+fi
+
+if [[ $ret -eq 6 ]]; then
+
+    `x-www-browser https://sparkylinux.org/wiki/`
+
+fi
+
+if [[ $ret -eq 7 ]]; then
+
+    `x-www-browser https://sourceforge.net/p/sparkylinux/tickets`
+
+fi
+
+exit 0
