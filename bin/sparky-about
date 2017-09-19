@@ -5,7 +5,7 @@
 #
 # Created by Paweł "pavroo" Pijanowski 2015/05/14
 # Copyright 2015, 2016, 2017 under the GNU GPL2 License
-# Last updated 2017/06/06
+# Last updated 2017/09/18
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-about"
@@ -108,6 +108,8 @@ elif [ $(pidof kwin) ]; then
 WMNAME="KWin"
 elif [ $(pidof kwin_x11) ]; then
 WMNAME="KWin_x11"
+elif [ $(pidof manokwari) ]; then
+WMNAME="Manokwari"
 elif [ $(pidof marco) ]; then
 WMNAME="Marco"
 elif [ $(pidof metacity) ]; then
