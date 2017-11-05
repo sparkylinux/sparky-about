@@ -3,7 +3,6 @@
 # Sob a licença GNU GPL v2
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/10/30
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="Sobre o SparkyLinux"
 LOCAL2="Outros"
 LOCAL3="Nome do SO"
@@ -29,7 +28,6 @@ LOCAL22="Anotador de Erros e Falhas"
 LOCAL23="Patrocinando"
 LOCAL24="Doar"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[pt_BR]=Sobre o SparkyLinux
 # Comment[pt_BR]=Informações básicas sobre o SparkyLinux

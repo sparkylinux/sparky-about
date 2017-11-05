@@ -2,7 +2,6 @@
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="A propos de SparkyLinux"
 LOCAL2="Autre"
 LOCAL3="Nom de l'OS"
@@ -28,7 +27,6 @@ LOCAL22="Suivi des erreurs"
 LOCAL23="Mécénat"
 LOCAL24="Donner"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[fr_FR]=A propos de SparkyLinux
 # Comment[fr_FR]=Information de base à propos de SparkyLinux

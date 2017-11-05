@@ -3,7 +3,6 @@
 # Under the GNU GPL v2
 # Translated to Polish by pavroo
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="O SparkyLinux"
 LOCAL2="Inny"
 LOCAL3="Nazwa OS"
@@ -29,7 +28,6 @@ LOCAL22="Zgłaszanie Błędów"
 LOCAL23="Sponsoring"
 LOCAL24="Darowizna"
 LOCAL25="x-www-browser nie jest zainstalowany!\n\nZainstaluj przeglądarkę www i spróbuj ponownie.\n\nWyjście..."
-
 ## .desktop file, również do przetłumaczenia
 # Name[pl_PL]=O SparkyLinux
 # Comment[pl_PL]=Podstawowe informacje o SparkyLinux

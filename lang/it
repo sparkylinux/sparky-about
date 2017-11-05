@@ -2,7 +2,6 @@
 # Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
 # Rilasciato sotto licenza GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="Informazioni su SparkyLinux"
 LOCAL2="Altro"
 LOCAL3="Nome del Sistema Operativo"
@@ -28,7 +27,6 @@ LOCAL22="Bug Tracker"
 LOCAL23="Sponsorizzazione"
 LOCAL24="Donare"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[it_IT]=About SparkyLinux
 # Comment[it_IT]=Informazioni di base circa SparkyLinux

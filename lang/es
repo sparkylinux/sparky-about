@@ -2,7 +2,6 @@
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="Acerca de SparkyLinux"
 LOCAL2="Otro"
 LOCAL3="Nombre del SO"
@@ -28,7 +27,6 @@ LOCAL22="Seguimiento de errores"
 LOCAL23="Patrocinando"
 LOCAL24="Donar"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[es_AR]=Acerca de SparkyLinux
 # Comment[es_AR]=Informaciones básicas acerca de SparkyLinux

@@ -3,7 +3,6 @@
 # Under the GNU GPL v2
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="SparkyLinux について"
 LOCAL2="その他"
 LOCAL3="OS 名称"
@@ -29,7 +28,6 @@ LOCAL22="バグトラッカー"
 LOCAL23="スポンサー"
 LOCAL24="寄付"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[ja_JP]=SparkyLinux について
 # Comment[ja_JP]=SparkyLinux についての基本情報

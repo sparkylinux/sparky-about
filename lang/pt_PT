@@ -2,7 +2,6 @@
 # Copyright 2016 Joel Chaves "Flacc" <joel_chaves@icloud.com> Monday 02 February 18:17:40 WET 2016
 # Sob a Licença GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="Sobre SparkyLinux"
 LOCAL2="Outros"
 LOCAL3="Nome do Sistema Operativo"
@@ -28,7 +27,6 @@ LOCAL22="Rastreador de bugs"
 LOCAL23="Patrocinando"
 LOCAL24="Doar"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### Arquivo a ser traduzido também .desktop
 # Name[pt_PT]=Sobre SparkyLinux
 # Comment[pt_PT]=Informações básicas sobre SparkyLinux

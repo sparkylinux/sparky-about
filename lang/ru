@@ -2,7 +2,6 @@
 # Copyright 2015 Igor Klyushnyov <inklu@yandex.ru> 2015/12/25
 # Под лицензией GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="О SparkyLinux"
 LOCAL2="Прочее"
 LOCAL3="Имя ОС"
@@ -28,7 +27,6 @@ LOCAL22="Трекер ошибок"
 LOCAL23="Спонсорство"
 LOCAL24="Пожертвовать"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[ru_RU]=О SparkyLinux
 # Comment[ru_RU]=Основная информация о SparkyLinux

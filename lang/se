@@ -2,7 +2,6 @@
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-10-26
 # Under GNU GPL v2
 # Last update 2017/06/06 by pavroo
-
 LOCAL1="Om SparkyLinux"
 LOCAL2="Annat"
 LOCAL3="OS-Namn"
@@ -28,7 +27,6 @@ LOCAL22="Buggspårare"
 LOCAL23="Sponsring"
 LOCAL24="Donera"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
 # Name[sv_SE]=Om SparkyLinux
 # Comment[sv_SE]=Grundläggande information om SparkyLinux

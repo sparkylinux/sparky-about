@@ -3,8 +3,7 @@
 # Under the GNU GPL v2
 # Translated to German by Pete B. 2015/10/29
 # Last update 2017/06/06 by pavroo
-
-LOCAL1="Über SparkyLinux"
+LOCAL1="Ãœber SparkyLinux"
 LOCAL2="Andere"
 LOCAL3="OS Name"
 LOCAL4="OS Version"
@@ -29,7 +28,7 @@ LOCAL22="Bug Tracker"
 LOCAL23="Sponsoring"
 LOCAL24="Spenden"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
-
 ### .desktop file to be translated too
-# Name[de_DE]=Über SparkyLinux
-# Comment[de_DE]=Informationen über SparkyLinux und das System
+# Name[de_DE]=Ãœber SparkyLinux
+# Comment[de_DE]=Informationen Ã¼ber SparkyLinux und das System
+
