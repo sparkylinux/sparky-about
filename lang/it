@@ -1,5 +1,5 @@
 # File di localizzzazione in italiano per Sparky About
-# Copyright 2015 Carlo‚ "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
+# Copyright 2015 Carlo "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
 # Rilasciato sotto licenza GNU GPL v2
 # Last update 2017/06/06 by pavroo
 LOCAL1="Informazioni su SparkyLinux"
@@ -26,7 +26,7 @@ LOCAL21="Wiki"
 LOCAL22="Bug Tracker"
 LOCAL23="Sponsorizzazione"
 LOCAL24="Donare"
-LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+LOCAL25="x-www-browser non è installato!\n\nInstalla un web browser e prova di nuovo.\n\nSto uscendo..."
 ### .desktop file to be translated too
 # Name[it_IT]=About SparkyLinux
 # Comment[it_IT]=Informazioni di base circa SparkyLinux
