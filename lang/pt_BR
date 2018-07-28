@@ -2,32 +2,32 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Sob a licença GNU GPL v2
 # Traduzido por Claudio Cesar de Sá "ccs1664" <ccs1664@gmail.com> 2015/10/30
-# Last update 2017/06/06 by pavroo
+# Last update 2018/07/28 by pavroo
 LOCAL1="Sobre o SparkyLinux"
-LOCAL2="Outros"
+LOCAL2="Outro"
 LOCAL3="Nome do SO"
-LOCAL4="Nome da Versão"
+LOCAL4="Versão do SO"
 LOCAL5="Nome do Código do SO"
-LOCAL6="Data e Horário"
+LOCAL6="Data e Hora"
 LOCAL7="Fuso Horário"
-LOCAL8="Computador Hospedeiro"
-LOCAL9="Hora de Uptime"
+LOCAL8="Nome do Computador"
+LOCAL9="Tempo de Atividade"
 LOCAL10="Kernel"
-LOCAL11="Total de RAM"
-LOCAL12="Total de SWAP"
-LOCAL13="Gerenciador de Janela"
-LOCAL14="Localização"
-LOCAL15="Arquitetura Diferente (Foreign) Habilitada"
+LOCAL11="RAM Total"
+LOCAL12="SWAP Total"
+LOCAL13="Gerenciador de Janelas"
+LOCAL14="Localidade"
+LOCAL15="Arquitetura estrangeira ativada"
 LOCAL16="Usuário"
 LOCAL17="ID do Usuário"
-LOCAL18="Grupo de Usuário"
-LOCAL19="Web Site do Sparky"
+LOCAL18="Grupos de Usuários"
+LOCAL19="Site do SparkyLinux"
 LOCAL20="Comunidade"
 LOCAL21="Wiki"
-LOCAL22="Anotador de Erros e Falhas"
+LOCAL22="Rastreador de Erros e Falhas"
 LOCAL23="Patrocinando"
 LOCAL24="Doar"
-LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+LOCAL25="x-www-browser não está instalado!\n\nInstale um navegador da Web e tente novamente.\n\nSaindo..."
 ### .desktop file to be translated too
 # Name[pt_BR]=Sobre o SparkyLinux
 # Comment[pt_BR]=Informações básicas sobre o SparkyLinux
