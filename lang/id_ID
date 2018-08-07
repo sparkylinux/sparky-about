@@ -1,0 +1,33 @@
+# Indonesian localization file for Sparky About.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update 2018/08/07 by pavroo
+# Translated to Indonesian by les kompie
+LOCAL1="Tentang SparkyLinux"
+LOCAL2="Lainnya"
+LOCAL3="Nama OS"
+LOCAL4="Versi OS"
+LOCAL5="Kode Nama OS"
+LOCAL6="Tanggal dan Waktu"
+LOCAL7="Zona Waktu"
+LOCAL8="Host"
+LOCAL9="Uptime"
+LOCAL10="Kernel"
+LOCAL11="RAM Total"
+LOCAL12="SWAP Total"
+LOCAL13="Window Manager"
+LOCAL14="Lokal"
+LOCAL15="Arsitektur Asing yang Aktif"
+LOCAL16="User"
+LOCAL17="ID User"
+LOCAL18="Grup User"
+LOCAL19="Website Sparky"
+LOCAL20="Komunitas"
+LOCAL21="Wiki"
+LOCAL22="Pelacak Bug"
+LOCAL23="Sponsor"
+LOCAL24="Donasi"
+LOCAL25="x-www-browser tidak ter-instal!\n\nInstal web browser dan coba lagi.\n\nSekarang keluar..."
+### .desktop file to be translated too
+# Name[id_ID]=Tentang SparkyLinux
+# Comment[id_ID]=Informasi dasar tentang SparkyLinux
