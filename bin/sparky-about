@@ -5,7 +5,7 @@
 #
 # Created by Paweł "pavroo" Pijanowski 2015/05/14
 # Copyright 2015-2018 under the GNU GPL2 License
-# Last updated 2018/08/07
+# Last update 2018/10/28 by SteveMoto
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-about"
@@ -40,13 +40,13 @@ DIALOG450="yad --window-icon=/usr/share/icons/sparky/about/sparky48.png --width=
 TITLE="--always-print-result --dialog-sep --image=/usr/share/icons/sparky/about/sparky128.png --title="
 TEXT="--text="
 MSGBOX="--button=Ok:0"
-DONATEBUTTON="--button=$LOCAL24:2"
-SPONSORBUTTON="--button=$LOCAL23:3"
-WWWBUTTON="--button=WWW:4"
-FORUMBUTTON="--button=$LOCAL20:5"
-WIKIBUTTON="--button=$LOCAL21:6"
-BUGBUTTON="--button=Bugs:7"
-TITLETEXT="$LOCAL1"
+WWWBUTTON="--button=$LOCAL_BUTTON_1:4"
+FORUMBUTTON="--button=$LOCAL_BUTTON_2:5"
+WIKIBUTTON="--button=$LOCAL_BUTTON_3:6"
+BUGBUTTON="--button=$LOCAL_BUTTON_4:7"
+SPONSORBUTTON="--button=$LOCAL_BUTTON_5:3"
+DONATEBUTTON="--button=$LOCAL_BUTTON_6:2"
+TITLETEXT="$LOCAL_TITLE"
 OSNAME="`lsb_release -d | awk '{print $2}'`"
 OSVERSION="`lsb_release -r | awk '{print $2}'`"
 OSCODE="`lsb_release -c | awk '{print $2}'`"
@@ -78,7 +78,7 @@ MACHINEARCH="i686"
 elif [ "$ARCHARM" != "" ]; then
 MACHINEARCH="ARM"
 else
-MACHINEARCH="$LOCAL2"
+MACHINEARCH="$LOCAL_RESULT_OTHER"
 fi
 
 ## Get the window manager name
@@ -147,34 +147,34 @@ WMNAME="Window Maker"
 elif [ $(pidof xfwm4) ]; then
 WMNAME="Xfwm4"
 else
-WMNAME="$LOCAL2"
+WMNAME="$LOCAL_RESULT_OTHER"
 fi
 
 ## build the window
 $DIALOG $TITLE"$TITLETEXT" $WWWBUTTON $FORUMBUTTON $WIKIBUTTON $BUGBUTTON $SPONSORBUTTON $DONATEBUTTON $TEXT\
-"\n<span $FONT>$LOCAL3: </span>$OSNAME\n\
-<span $FONT>$LOCAL4: </span>$OSVERSION\n\
-<span $FONT>$LOCAL5: </span>$OSCODE\n\n\
-<span $FONT>$LOCAL6: </span>$PRINTDATE\n\
-<span $FONT>$LOCAL7: </span>$PRINTTIMEZONE\n\n\
-<span $FONT>Arch: </span>$MACHINEARCH\n\
-<span $FONT>$LOCAL8: </span>$HOST\n\
-<span $FONT>$LOCAL9: </span>$UPTIME\n\
-<span $FONT>$LOCAL10: </span>$KERNEL\n\
-<span $FONT>$LOCAL11: </span>$RAMTOTAL kB\n\
-<span $FONT>$LOCAL12: </span>$SWAPTOTAL kB\n\
-<span $FONT>$LOCAL13: </span>$WMNAME\n\
-<span $FONT>$LOCAL14: </span>$PRINTLOCALE\n\
-<span $FONT>$LOCAL15: </span>$PRINTARCH\n\n\
-<span $FONT>$LOCAL16: </span>$USER\n\
-<span $FONT>$LOCAL17: </span>$USERID\n\
-<span $FONT>$LOCAL18: </span>$USERGROUPS\n\n"
+"\n<span $FONT>$LOCAL_LABEL_1_1: </span>$OSNAME\n\
+<span $FONT>$LOCAL_LABEL_1_2: </span>$OSVERSION\n\
+<span $FONT>$LOCAL_LABEL_1_3: </span>$OSCODE\n\n\
+<span $FONT>$LOCAL_LABEL_2_1: </span>$PRINTDATE\n\
+<span $FONT>$LOCAL_LABEL_2_2: </span>$PRINTTIMEZONE\n\n\
+<span $FONT>$LOCAL_LABEL_3_1: </span>$MACHINEARCH\n\
+<span $FONT>$LOCAL_LABEL_3_2: </span>$HOST\n\
+<span $FONT>$LOCAL_LABEL_3_3: </span>$UPTIME\n\
+<span $FONT>$LOCAL_LABEL_3_4: </span>$KERNEL\n\
+<span $FONT>$LOCAL_LABEL_3_5: </span>$RAMTOTAL kB\n\
+<span $FONT>$LOCAL_LABEL_3_6: </span>$SWAPTOTAL kB\n\
+<span $FONT>$LOCAL_LABEL_3_7: </span>$WMNAME\n\
+<span $FONT>$LOCAL_LABEL_3_8: </span>$PRINTLOCALE\n\
+<span $FONT>$LOCAL_LABEL_3_9: </span>$PRINTARCH\n\n\
+<span $FONT>$LOCAL_LABEL_4_1: </span>$USER\n\
+<span $FONT>$LOCAL_LABEL_4_2: </span>$USERID\n\
+<span $FONT>$LOCAL_LABEL_4_3: </span>$USERGROUPS\n\n"
 
 ret=$?
 
 # check is x-www-browser installed
 if [ ! -f /etc/alternatives/x-www-browser ]; then
-	$DIALOG450 $TITLE"$TITLETEXT" $TEXT"$LOCAL25" $MSGBOX
+	$DIALOG450 $TITLE"$TITLETEXT" $TEXT"$LOCAL_MESSAGE_1" $MSGBOX
 	exit 0
 fi
  
