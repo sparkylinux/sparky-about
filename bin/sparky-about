@@ -4,8 +4,8 @@
 # via a GUI frontend built by Yad
 #
 # Created by Paweł "pavroo" Pijanowski 2015/05/14
-# Copyright 2015-2018 under the GNU GPL2 License
-# Last updated 2018/08/07
+# Copyright 2015-2019 under the GNU GPL2 License
+# Last updated 2019/04/15
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-about"
@@ -49,7 +49,8 @@ BUGBUTTON="--button=Bugs:7"
 TITLETEXT="$LOCAL1"
 OSNAME="`lsb_release -d | awk '{print $2}'`"
 OSVERSION="`lsb_release -r | awk '{print $2}'`"
-OSCODE="`lsb_release -c | awk '{print $2}'`"
+#OSCODE="`lsb_release -c | awk '{print $2}'`"
+OSCODE="`cat /etc/lsb-release | grep CODENAME | cut -d= -f2`"
 PRINTDATE="`date '+%a %F %T'`"
 PRINTTIMEZONE="`cat /etc/timezone`"
 HOST="`uname -n`"
