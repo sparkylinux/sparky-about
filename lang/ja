@@ -1,33 +1,34 @@
 # Japanese localization file for Sparky About.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Translated to Japanese by BALLOON a.k.a. Fu-sen.
 # Last update 2017/06/06 by pavroo
+# Translated to Japanese by BALLOON a.k.a. Fu-sen.
+# Translated to Japanese by FuRuYa7.
 LOCAL1="SparkyLinux について"
 LOCAL2="その他"
-LOCAL3="OS 名称"
+LOCAL3="OS 名"
 LOCAL4="OS バージョン"
 LOCAL5="OS コードネーム"
 LOCAL6="日時"
 LOCAL7="タイムゾーン"
-LOCAL8="ホスト"
+LOCAL8="ホスト名"
 LOCAL9="起動時間"
 LOCAL10="カーネル"
 LOCAL11="RAM 全容量"
 LOCAL12="SWAP 全容量"
-LOCAL13="ウインドウマネージャ"
+LOCAL13="ウィンドウマネージャ"
 LOCAL14="ロケール"
-LOCAL15="有効アーキテクチャ"
-LOCAL16="ユーザー"
+LOCAL15="有効なアーキテクチャ"
+LOCAL16="ユーザー名"
 LOCAL17="ユーザー ID"
-LOCAL18="ユーザーグループ"
+LOCAL18="ユーザーグループ名"
 LOCAL19="Sparky Web サイト"
 LOCAL20="コミュニティ"
 LOCAL21="Wiki"
-LOCAL22="バグトラッカー"
+LOCAL22="バグ管理"
 LOCAL23="スポンサー"
 LOCAL24="寄付"
-LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+LOCAL25="x-www-browser がインストールされていません！\n\nWebブラウザをインストールしてもう一度試してください。\n\n終了しています..."
 ### .desktop file to be translated too
 # Name[ja_JP]=SparkyLinux について
 # Comment[ja_JP]=SparkyLinux についての基本情報
