@@ -1,0 +1,32 @@
+# Greek localization file for Sparky About.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update 2019/11/05 by jidan
+LOCAL1="Σχετικά με το SparkyLinux"
+LOCAL2="Άλλα"
+LOCAL3="Όνομα Λ.Σ."
+LOCAL4="Έκδοση Λ.Σ."
+LOCAL5="Κωδικό όνομα Λ.Σ."
+LOCAL6="Ημερομηνία και ώρα"
+LOCAL7="Ζώνη ώρας"
+LOCAL8="Όνομα Η/Υ"
+LOCAL9="Ώρα λειτουργίας"
+LOCAL10="Πυρήνας Linux"
+LOCAL11="Συνολική χωρητικότητα RAM"
+LOCAL12="Συνολική χωρητικότητα SWAP"
+LOCAL13="Διαχειριστής Παραθύρων"
+LOCAL14="Locale"
+LOCAL15="Επιπλέον ενεργή αρχιτεκτονική"
+LOCAL16="Χρήστης"
+LOCAL17="ID χρήστη"
+LOCAL18="Ομάδες χρήστη"
+LOCAL19="Ιστοσελίδα Sparky"
+LOCAL20="Κοινότητα"
+LOCAL21="Wiki"
+LOCAL22="Αναφορά σφαλμάτων"
+LOCAL23="Σπόνσορες"
+LOCAL24="Δωρεές"
+LOCAL25="Δεν είναι εγκατεστημένος κάποιος περιηγητής διαδικτύου!\n\nΕγκαταστήστε έναν περιηγητή και δοκιμάστε ξανά.\n\nΠραγματοποιείται έξοδος..."
+### .desktop file to be translated too
+# Name[el_GR]=Σχετικά με το SparkyLinux
+# Comment[el_GR]=Βασικές πληροφορίες σχετικά με το SparkyLinux
