@@ -6,7 +6,7 @@ Upstream Author(s):
     Paweł "pavroo" Pijanowski <pavroo@onet.eu>
     
 Files: *
-    Copyright (C) 2015-2019 Paweł Pijanowski
+    Copyright (C) 2015-2020 Paweł Pijanowski
     License: GPL-2
 
 File: de
@@ -26,7 +26,7 @@ File: fr
     License: GPL-2
 
 File: hu
-    Copyright 2019 Nemomen
+    Copyright 2019-2020 Nemomen
     License: GPL-2
 
 File: id_ID
@@ -53,6 +53,7 @@ File: pt_PT
 
 File: ru
     Copyright (C) 2016 Igor Klyushnyov <inklu@yandex.ru>
+    Copyright (C) 2020 ChourS2008
     License: GPL-2
 
 File: se

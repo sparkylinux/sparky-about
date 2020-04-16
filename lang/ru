@@ -1,7 +1,7 @@
 # Файл русской локализации для Sparky About.
 # Copyright 2015 Igor Klyushnyov <inklu@yandex.ru> 2015/12/25
 # Под лицензией GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/16 by ChourS2008
 LOCAL1="О SparkyLinux"
 LOCAL2="Прочее"
 LOCAL3="Имя ОС"
@@ -26,7 +26,7 @@ LOCAL21="Вики"
 LOCAL22="Трекер ошибок"
 LOCAL23="Спонсорство"
 LOCAL24="Пожертвовать"
-LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+LOCAL25="x-www-browser не установлен!\n\nУстановите веб-браузер и попробуйте снова.\n\nВыходим..."
 ### .desktop file to be translated too
 # Name[ru_RU]=О SparkyLinux
 # Comment[ru_RU]=Основная информация о SparkyLinux

@@ -2,7 +2,7 @@ Sparky About
 Sparky About uses a few tools to display some system informations
 via a GUI frontend built by Yad
 
-Copyright (C) 2015-2019 Paweł Pijanowski
+Copyright (C) 2015-2020 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
