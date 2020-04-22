@@ -204,13 +204,13 @@ fi
 
 if [[ $ret -eq 5 ]]; then
 
-    `x-www-browser https://sparkylinux.org/forum/`
+    `x-www-browser https://forum.sparkylinux.org/`
 
 fi
 
 if [[ $ret -eq 6 ]]; then
 
-    `x-www-browser https://sparkylinux.org/wiki/`
+    `x-www-browser https://wiki.sparkylinux.org/`
 
 fi
 
