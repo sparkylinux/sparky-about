@@ -2,7 +2,8 @@
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
 # Translate from English localization file by xingjiapeng 2020
-# Last update 2020/04/23 by pavroo
+# Update 2020/04/23 by pavroo
+# Last update 2020/04/24 by xingjiapeng
 LOCAL1="关于 SparkyLinux"
 LOCAL2="其他"
 LOCAL3="系统名称"
@@ -21,7 +22,7 @@ LOCAL15="其他支持的架构"
 LOCAL16="用户"
 LOCAL17="用户 ID"
 LOCAL18="用户组"
-LOCAL19="家"
+LOCAL19="主页"
 LOCAL20="社区"
 LOCAL21="百科"
 LOCAL22="Bug"
