@@ -1,7 +1,7 @@
 # English localization file for Sparky About.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="About SparkyLinux"
 LOCAL2="Other"
 LOCAL3="OS Name"
@@ -20,10 +20,10 @@ LOCAL15="Foreign Architecture Enabled"
 LOCAL16="User"
 LOCAL17="User ID"
 LOCAL18="User Groups"
-LOCAL19="Sparky Web Site"
+LOCAL19="Home"
 LOCAL20="Community"
 LOCAL21="Wiki"
-LOCAL22="Bug Tracker"
+LOCAL22="Bugs"
 LOCAL23="Sponsoring"
 LOCAL24="Donate"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."

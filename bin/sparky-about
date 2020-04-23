@@ -5,7 +5,7 @@
 #
 # Created by Paweł "pavroo" Pijanowski 2015/05/14
 # Copyright 2015-2020 under the GNU GPL2 License
-# Last updated 2020/04/21
+# Last updated 2020/04/23
 
 # get default's locale file
 DEFLOCDIR="/usr/share/sparky/sparky-about"
@@ -51,7 +51,7 @@ SPONSORBUTTON="--button=$LOCAL23:3"
 WWWBUTTON="--button=$LOCAL19:4"
 FORUMBUTTON="--button=$LOCAL20:5"
 WIKIBUTTON="--button=$LOCAL21:6"
-BUGBUTTON="--button=LOCAL22:7"
+BUGBUTTON="--button=$LOCAL22:7"
 TITLETEXT="$LOCAL1"
 OSNAME="`lsb_release -d | awk '{print $2}'`"
 OSVERSION="`lsb_release -r | awk '{print $2}'`"

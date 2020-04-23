@@ -1,7 +1,7 @@
 # Archivo de localización en español para Sparky About.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="Acerca de SparkyLinux"
 LOCAL2="Otro"
 LOCAL3="Nombre del SO"
@@ -20,10 +20,10 @@ LOCAL15="Arquitectura externa habilitada"
 LOCAL16="Usuario"
 LOCAL17="ID del usuario"
 LOCAL18="Grupos de usuarios"
-LOCAL19="Sitio Web de Sparky"
+LOCAL19="Casa"
 LOCAL20="Comunidad"
 LOCAL21="Wiki"
-LOCAL22="Seguimiento de errores"
+LOCAL22="Errores"
 LOCAL23="Patrocinando"
 LOCAL24="Donar"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."

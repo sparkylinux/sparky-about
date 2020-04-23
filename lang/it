@@ -1,7 +1,7 @@
 # File di localizzzazione in italiano per Sparky About
 # Copyright 2015 Carlo "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
 # Rilasciato sotto licenza GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="Informazioni su SparkyLinux"
 LOCAL2="Altro"
 LOCAL3="Nome del Sistema Operativo"
@@ -20,10 +20,10 @@ LOCAL15="Foreign Architecture Enabled"
 LOCAL16="Utente"
 LOCAL17="Identificativo Utente"
 LOCAL18="Gruppi dell'Utente"
-LOCAL19="Sito Web di Sparky"
+LOCAL19="Casa"
 LOCAL20="Comunità"
 LOCAL21="Wiki"
-LOCAL22="Bug Tracker"
+LOCAL22="Bug"
 LOCAL23="Sponsorizzazione"
 LOCAL24="Donare"
 LOCAL25="x-www-browser non è installato!\n\nInstalla un web browser e prova di nuovo.\n\nSto uscendo..."

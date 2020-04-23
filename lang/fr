@@ -1,7 +1,7 @@
 ﻿# Fichier de localisation française de Sparky About.
 # Copyright 2016 hiver <hiver@club-internet.fr> 2016/06/05
 # Sous licence GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="A propos de SparkyLinux"
 LOCAL2="Autre"
 LOCAL3="Nom de l'OS"
@@ -20,10 +20,10 @@ LOCAL15="Architecture différente activée"
 LOCAL16="Utilisateur"
 LOCAL17="ID de l'Utilisateur"
 LOCAL18="Groupes de l'Utilisateur"
-LOCAL19="Site internet de Sparky"
+LOCAL19="Home"
 LOCAL20="Communauté"
 LOCAL21="Wiki"
-LOCAL22="Suivi des erreurs"
+LOCAL22="Erreurs"
 LOCAL23="Mécénat"
 LOCAL24="Donner"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."

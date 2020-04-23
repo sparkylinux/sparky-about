@@ -2,7 +2,7 @@
 # Copyright 2015 Pawel "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/25
 # Under the GNU GPL v2
 # Translated to German by Pete B. 2015/10/29
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="Über SparkyLinux"
 LOCAL2="Andere"
 LOCAL3="OS Name"
@@ -21,10 +21,10 @@ LOCAL15="Foreign Architecture Enabled"
 LOCAL16="Benutzer"
 LOCAL17="Benutzer ID"
 LOCAL18="Benutzer Gruppen"
-LOCAL19="Sparky Webseite"
+LOCAL19="Hause"
 LOCAL20="Community"
 LOCAL21="Wiki"
-LOCAL22="Bug Tracker"
+LOCAL22="Bugs"
 LOCAL23="Sponsoring"
 LOCAL24="Spenden"
 LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."

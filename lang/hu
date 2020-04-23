@@ -1,7 +1,7 @@
-# Magyar nyelvi fájl a Sparky About-hoz.
+# Magyar nyelvi fájl a Sparky About-hoz by Nemomen
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # GNU GPL v2 szerint
-# Last update by Nemomen 2020/04/66 
+# Last update by pavroo 2020/04/23 
 LOCAL1="A SparkyLinux-ról"
 LOCAL2="Egyéb"
 LOCAL3="Operációs rendszer neve"
@@ -20,8 +20,8 @@ LOCAL15="Idegen architektúra megengedett"
 LOCAL16="Felhasználó"
 LOCAL17="Felhasználó ID"
 LOCAL18="Felhasználói csoport"
-LOCAL19="A Sparky Weboldala"
-LOCAL20="Közösség (Community)"
+LOCAL19="Haza"
+LOCAL20="Közösség"
 LOCAL21="Wiki"
 LOCAL22="Hibakereső"
 LOCAL23="Támogatás"

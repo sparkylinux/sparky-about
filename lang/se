@@ -1,7 +1,7 @@
 # Svensk språkfil för Sparky Om.
 # Copyright 2015 Johnny Rosenberg <johnny.a.rosenberg@gmail.com> 2015-10-26
 # Under GNU GPL v2
-# Last update 2017/06/06 by pavroo
+# Last update 2020/04/23 by pavroo
 LOCAL1="Om SparkyLinux"
 LOCAL2="Annat"
 LOCAL3="OS-Namn"
@@ -20,7 +20,7 @@ LOCAL15="Okänd arkitektur aktiverad"
 LOCAL16="Användare"
 LOCAL17="Användar-ID"
 LOCAL18="Användargrupper"
-LOCAL19="Sparkys webbplats"
+LOCAL19="Hem"
 LOCAL20="Gemenskap"
 LOCAL21="Wiki"
 LOCAL22="Buggspårare"

@@ -1,8 +1,8 @@
 # Chinese(Simplified) localization file for Sparky About.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2020/04/10 by xingjiapeng
-# Translate from English localization file (Last update 2017/06/06 by pavroo)
+# Translate from English localization file by xingjiapeng 2020
+# Last update 2020/04/23 by pavroo
 LOCAL1="关于 SparkyLinux"
 LOCAL2="其他"
 LOCAL3="系统名称"
@@ -21,10 +21,10 @@ LOCAL15="其他支持的架构"
 LOCAL16="用户"
 LOCAL17="用户 ID"
 LOCAL18="用户组"
-LOCAL19="Sparky 网站"
+LOCAL19="家"
 LOCAL20="社区"
 LOCAL21="百科"
-LOCAL22="Bug 追踪"
+LOCAL22="Bug"
 LOCAL23="赞助"
 LOCAL24="捐赠"
 LOCAL25="x-www-browser 未被安装！\n\n请安装浏览器并重试。\n\n退出中……"

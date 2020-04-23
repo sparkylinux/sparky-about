@@ -1,9 +1,9 @@
 # Japanese localization file for Sparky About.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2017/06/06 by pavroo
 # Translated to Japanese by BALLOON a.k.a. Fu-sen.
 # Translated to Japanese by FuRuYa7.
+# Last update 2020/04/23 by pavroo
 LOCAL1="SparkyLinux について"
 LOCAL2="その他"
 LOCAL3="OS 名"
@@ -22,7 +22,7 @@ LOCAL15="有効なアーキテクチャ"
 LOCAL16="ユーザー名"
 LOCAL17="ユーザー ID"
 LOCAL18="ユーザーグループ名"
-LOCAL19="Sparky Web サイト"
+LOCAL19="ホーム"
 LOCAL20="コミュニティ"
 LOCAL21="Wiki"
 LOCAL22="バグ管理"

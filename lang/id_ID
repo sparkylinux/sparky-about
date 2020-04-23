@@ -1,7 +1,7 @@
 # Indonesian localization file for Sparky About.
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # Under the GNU GPL v2
-# Last update 2018/08/07 by pavroo
+# Last update 2020/04/23 by pavroo
 # Translated to Indonesian by les kompie
 LOCAL1="Tentang SparkyLinux"
 LOCAL2="Lainnya"
@@ -21,10 +21,10 @@ LOCAL15="Arsitektur Asing yang Aktif"
 LOCAL16="User"
 LOCAL17="ID User"
 LOCAL18="Grup User"
-LOCAL19="Website Sparky"
+LOCAL19="Rumah"
 LOCAL20="Komunitas"
 LOCAL21="Wiki"
-LOCAL22="Pelacak Bug"
+LOCAL22="Bug"
 LOCAL23="Sponsor"
 LOCAL24="Donasi"
 LOCAL25="x-www-browser tidak ter-instal!\n\nInstal web browser dan coba lagi.\n\nSekarang keluar..."
