@@ -1,0 +1,33 @@
+# Spanish (es_ES) localization file for Sparky About.
+# Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
+# Under the GNU GPL v2
+# Last update 2020/04/23 by pavroo
+# Translated to Spanish by depaz
+LOCAL1="Acerca de SparkyLinux"
+LOCAL2="Otro"
+LOCAL3="Nombre del SO"
+LOCAL4="Versión del SO"
+LOCAL5="Nombre en código del SO"
+LOCAL6="Fecha y hora"
+LOCAL7="Zona horaria"
+LOCAL8="Host"
+LOCAL9="Tiempo en funcionamiento"
+LOCAL10="Kernel"
+LOCAL11="RAM total"
+LOCAL12="SWAP total"
+LOCAL13="Gestor de ventanas"
+LOCAL14="Locale"
+LOCAL15="Arquitectura no nativa activa"
+LOCAL16="Usuario"
+LOCAL17="ID de usuario"
+LOCAL18="Grupos del usuario"
+LOCAL19="Web"
+LOCAL20="Comunidad"
+LOCAL21="Wiki"
+LOCAL22="Bugs"
+LOCAL23="Patrocinio"
+LOCAL24="Donar"
+LOCAL25="¡x-www-browser no está instalado!\n\nInstale un navegador web e inténtelo de nuevo.\n\nSaliendo..."
+### .desktop file to be translated too
+# Name[es_ES]=Acerca de SparkyLinux
+# Comment[es_ES]=Información básica sobre SparkyLinux

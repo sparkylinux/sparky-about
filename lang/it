@@ -1,6 +1,7 @@
-# File di localizzzazione in italiano per Sparky About
+# File di localizzazione in italiano per Sparky About
 # Copyright 2015 Carlo "malato" Troiani <abbassolafrangetta@gmail.com> 2015/10/22
 # Rilasciato sotto licenza GNU GPL v2
+# Ultimo aggiornamento 2022/05/18 by Yodel Sinatra <mastodon.uno/@YodelSinatra>
 # Last update 2020/04/23 by pavroo
 LOCAL1="Informazioni su SparkyLinux"
 LOCAL2="Altro"
@@ -16,7 +17,7 @@ LOCAL11="RAM Totale"
 LOCAL12="SWAP Totale"
 LOCAL13="Gestore di Finestre"
 LOCAL14="Locale"
-LOCAL15="Foreign Architecture Enabled"
+LOCAL15="Architettura esterna abilitata"
 LOCAL16="Utente"
 LOCAL17="Identificativo Utente"
 LOCAL18="Gruppi dell'Utente"
@@ -26,7 +27,7 @@ LOCAL21="Wiki"
 LOCAL22="Bug"
 LOCAL23="Sponsorizzazione"
 LOCAL24="Donare"
-LOCAL25="x-www-browser non è installato!\n\nInstalla un web browser e prova di nuovo.\n\nSto uscendo..."
+LOCAL25="x-www-browser non è installato!\n\nInstalla un web browser e riprova.\n\nPuoi uscire..."
 ### .desktop file to be translated too
-# Name[it_IT]=About SparkyLinux
-# Comment[it_IT]=Informazioni di base circa SparkyLinux
+# Name[it_IT]=Informazioni su SparkyLinux
+# Comment[it_IT]=Informazioni di base su parkyLinux
