@@ -1,32 +1,32 @@
-# Magyar nyelvi fájl a Sparky About-hoz by Nemomen
+# Magyar nyelvi fájl a Sparky About-hoz by Nemomen & BunnyMnemonic
 # Copyright 2015 Paweł "pavroo" Pijanowski <pavroo@onet.eu> 2015/10/22
 # GNU GPL v2 szerint
-# Last update by pavroo 2020/04/23 
-LOCAL1="A SparkyLinux-ról"
+# Last update by BunnyMnemonic 2023/10/09 
+LOCAL1="A SparkyLinuxról"
 LOCAL2="Egyéb"
 LOCAL3="Operációs rendszer neve"
-LOCAL4="Operációs rendszer kiadása (Version)"
+LOCAL4="Operációs rendszer kiadása (verzió)"
 LOCAL5="Operációs rendszer kódneve"
 LOCAL6="Dátum és idő"
 LOCAL7="Időzona"
-LOCAL8="Gazdagép (Host)"
+LOCAL8="Gazdagép (host)"
 LOCAL9="Uptime (Az utolsó újraindítás óta eltelt idő)"
-LOCAL10="Kernel"
-LOCAL11="RAM Teljes"
-LOCAL12="SWAP Teljes"
+LOCAL10="Rendszermag (kernel)"
+LOCAL11="Teljes RAM"
+LOCAL12="Teljes SWAP"
 LOCAL13="Ablakkezelő"
-LOCAL14="Nemzeti és kulturális (beállítások)"
+LOCAL14="Nyelv és régió"
 LOCAL15="Idegen architektúra megengedett"
 LOCAL16="Felhasználó"
-LOCAL17="Felhasználó ID"
+LOCAL17="Felhasználó azonosító"
 LOCAL18="Felhasználói csoport"
-LOCAL19="Haza"
+LOCAL19="Honlap"
 LOCAL20="Közösség"
 LOCAL21="Wiki"
 LOCAL22="Hibakereső"
 LOCAL23="Támogatás"
 LOCAL24="Adományok"
-LOCAL25="x-www-böngésző nincs telepítve!\n\nTelepítse a böngészőt és próbálja újra.\n\nKilépés..."
+LOCAL25="x-www-browser nincs telepítve!\n\nTelepítsen egy böngészőt és próbálja újra.\n\nKilépés..."
 ### .desktop file to be translated too  (=az .asztal fájl is lefordítandó)
-# Név[en_US]=A SparkyLinuxról
-# Megjegyzés[en_US]=alapvető információk a SparkyLinuxról
+# Név[hu]=A SparkyLinuxról
+# Megjegyzés[hu]=Alapvető információk a SparkyLinuxról
