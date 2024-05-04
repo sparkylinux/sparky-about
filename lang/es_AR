@@ -1,16 +1,16 @@
 # Archivo de localización en español para Sparky About.
 # Copyright 2015 Fernando "seacat" Velo <seacat.linux@gmail.com> 2015/12/22
 # Bajo la licencia GNU GPL v2
-# Last update 2020/04/23 by pavroo
+# Last update 2024/04/15 by aleximon
 LOCAL1="Acerca de SparkyLinux"
 LOCAL2="Otro"
-LOCAL3="Nombre del SO"
+LOCAL3="Nombre del Sistema Operativo"
 LOCAL4="Version del SO"
-LOCAL5="Nombre Código del SO"
+LOCAL5="Nombre en Código del SO"
 LOCAL6="Fecha y Hora"
 LOCAL7="Zona Horaria"
-LOCAL8="Host"
-LOCAL9="Tiempo en funcionamiento"
+LOCAL8="Nombre del Equipo"
+LOCAL9="Tiempo de actividad"
 LOCAL10="Kernel"
 LOCAL11="RAM Total"
 LOCAL12="SWAP Total"
@@ -19,14 +19,14 @@ LOCAL14="Localización"
 LOCAL15="Arquitectura externa habilitada"
 LOCAL16="Usuario"
 LOCAL17="ID del usuario"
-LOCAL18="Grupos de usuarios"
-LOCAL19="Casa"
+LOCAL18="Grupos del usuario"
+LOCAL19="Web"
 LOCAL20="Comunidad"
 LOCAL21="Wiki"
 LOCAL22="Errores"
-LOCAL23="Patrocinando"
+LOCAL23="Patrocinar"
 LOCAL24="Donar"
-LOCAL25="x-www-browser is not installed!\n\nInstall a web browser and try again.\n\nExiting..."
+LOCAL25="¡x-www-browser is no está instalado!\n\nInstalar un navegador web e intente de nuevo.\n\nSaliendo..."
 ### .desktop file to be translated too
 # Name[es_AR]=Acerca de SparkyLinux
-# Comment[es_AR]=Informaciones básicas acerca de SparkyLinux
+# Comment[es_AR]=Información básica acerca de SparkyLinux
