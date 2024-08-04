@@ -1,0 +1,32 @@
+# Suomenkielinen lokalisointitiedosto Sparky About -sovellukselle.
+# Tekijänoikeus 2015 PaweÅ‚ "pavroo" Pijanowski <pavroo@onet.eu> 22.10.2015
+# GNU GPL v2:n alla
+# Viimeisin päivitys 2020/04/23 pavroo
+LOCAL1="Tietoja SparkyLinuxista"
+LOCAL2="Muu"
+LOCAL3="käyttöjärjestelmän nimi"
+LOCAL4="käyttöjärjestelmäversio"
+LOCAL5="OS Code Name"
+LOCAL6="Päivämäärä ja aika"
+LOCAL7="Aikavyöhyke"
+LOCAL8="Isäntä"
+LOCAL9="Päälläoloaika"
+LOCAL10="Ydin"
+LOCAL11="RAM yhteensä"
+LOCAL12="SWAP Yhteensä"
+LOCAL13="Ikkunanhallinta"
+LOCAL14="Kieli"
+LOCAL15="Ulkomaista arkkitehtuuria käytössä"
+LOCAL16="Käyttäjä"
+LOCAL17="Käyttäjätunnus"
+LOCAL18="Käyttäjäryhmät"
+LOCAL19="Koti"
+LOCAL20="yhteisö"
+LOCAL21="Wiki"
+LOCAL22="Vikoja"
+LOCAL23="Sponsorointi"
+LOCAL24="Lahjoita"
+LOCAL25="x-www-selainta ei ole asennettu!\n\nAsenna verkkoselain ja yritä uudelleen.\n\nPoistutaan..."
+### .desktop-tiedosto käännettävä myös
+# Name[en_US]=Tietoja SparkyLinuxista
+# Comment[en_US]=Perustiedot SparkyLinuxista
